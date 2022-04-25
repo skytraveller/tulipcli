@@ -14,7 +14,7 @@ class TestFind(unittest.TestCase):
                 find="test,world!,Welcome!",
             ),
             [
-                "{'test': {'description': 'Hello', 'parent': 0, 'uid': 2}}",
+                "{'test': {'description': 'update', 'parent': 0, 'uid': 2}}",
                 "{'Welcome!': {'description': '', 'parent': 3, 'uid': 4}}",
                 None
             ]
